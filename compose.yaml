@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=retailcore'
+      - 'POSTGRES_PASSWORD=retailcore'
+      - 'POSTGRES_USER=retailcore'
+    ports:
+      - '5432'
